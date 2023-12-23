@@ -502,7 +502,7 @@ pre {
     display: -ms-flexbox;
     display: flex;
     -ms-flex-wrap: wrap;
-    flex-wrap: nowrap;
+    flex-wrap: wrap;
     margin-right: -15px;
     margin-left: -15px;
 }
@@ -883,6 +883,11 @@ pre {
     -ms-flex: 0 0 100%;
         flex: 0 0 100%;
     max-width: 100%; }
+    .col-md-13 {
+      margin-left: 24%;
+      -ms-flex: 0 0 41.66667%;
+      flex: 0 0 41.66667%;
+      max-width: 55.66667%; }
   .order-md-first {
     -ms-flex-order: -1;
         order: -1; }
@@ -7675,7 +7680,10 @@ body {
     padding: 0;
 }
 
-
+.slick-dots.col-md-13 {
+  top: 15em;
+  display: none; 
+}
 
 /*footer*/
 footer ul > li {
@@ -7897,5 +7905,11 @@ footer h5 {
   overflow: hidden;
   margin-right: 0px;
   padding: 0;
+}
+h2, .h2 {
+  font-size: 1.5rem;
+}
+.text-muted {
+  font-size: 0.9rem;
 }
   }
