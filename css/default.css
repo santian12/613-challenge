@@ -7655,6 +7655,12 @@ body {
   text-align: center; }
   .pricing-table .card .card-body {
     padding: 2.25rem 2rem; }
+    .card-aling{
+      padding-bottom: 9rem;
+    }
+    .card-aling1{
+      padding-bottom: 2.5rem;
+    }
   .pricing-table .card.active {
     color: white;
     background-color: transparent; }
@@ -7893,7 +7899,9 @@ footer h5 {
         margin-right: 0px;
         margin-left: 25px;
     }
-
+.img-bg{
+  width: 41%;
+}
 @media screen and (max-width: 768px) {
   .switcher-wrap {
     display: none; }
