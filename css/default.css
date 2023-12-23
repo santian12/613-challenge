@@ -7334,7 +7334,9 @@ a.text-dark:hover, a.text-dark:focus {
 
 .text-body {
   color: #CFD8DC !important; }
-
+.card-title.text-info.mb-0.pt-4{
+  font-size: 1.5rem;
+}
 .text-muted {
   color: #78909C !important; }
 
@@ -7517,10 +7519,10 @@ body {
     z-index: 3; }
   .section-angle.top-left:before, .section-angle.top-right:before {
     top: 0;
-    border-left-width: 100vw; }
+    border-left-width: 99vw; }
   .section-angle.bottom-left:after, .section-angle.bottom-right:after {
     bottom: 0;
-    border-right-width: 100vw; }
+    border-right-width: 99vw; }
   .section-angle.bottom-left:after {
     border-right-color: inherit; }
   .section-angle.bottom-right:after {
@@ -7594,12 +7596,13 @@ body {
 
 .bg-hero {
   background-color: #000000;
-  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='100%25' height='100%25' viewBox='0 0 800 800'%3E%3Cg %3E%3Ccircle fill='#000000' cx='400' cy='400' r='600'/%3E%3Ccircle fill='#053529' cx='400' cy='400' r='500'/%3E%3Ccircle fill='#0a634d' cx='400' cy='400' r='400'/%3E%3Ccircle fill='#0e9271' cx='400' cy='400' r='300'/%3E%3Ccircle fill='#13c095' cx='400' cy='400' r='200'/%3E%3Ccircle fill='#1de9b6' cx='400' cy='400' r='100'/%3E%3C/g%3E%3C/svg%3E");
+  background-image: url("https://i.ibb.co/b1695WR/produccion-exitosa-planta-cannabis-1.jpg");
   /* background by SVGBackgrounds.com */
   background-attachment: fixed;
   background-size: cover;
   position: relative; }
   .bg-hero:before {
+    
     position: absolute;
     z-index: 1;
     width: 100%;
