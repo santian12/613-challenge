@@ -7882,6 +7882,15 @@ footer h5 {
     .switcher-wrap .switcher-trigger:hover {
       color: #1de9b6; }
 
+      .row {
+        display: -ms-flexbox;
+        display: flex;
+        -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+        margin-right: 0px;
+        margin-left: 25px;
+    }
+
 @media screen and (max-width: 768px) {
   .switcher-wrap {
     display: none; }
