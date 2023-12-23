@@ -397,6 +397,13 @@ mark,
 .blockquote {
   margin-bottom: 1rem;
   font-size: 1.25rem; }
+  .card-title..mb-0.pt-4{
+    font-size: 1.5rem;
+  }
+  .card-title.text-primary.mb-0.pt-4{
+    font-size: 1.5rem;
+  }
+
 
 .blockquote-footer {
   display: block;
@@ -7648,7 +7655,7 @@ body {
 
 /**slick slider */
 .slick-dots {
-  top: 13em; }
+  top: 23em; }
   .slick-dots li button::before {
     font-size: .75rem !important;
     line-height: 3.5rem !important; }
@@ -7660,6 +7667,15 @@ body {
 
 .slick-next:hover:before, .slick-prev:hover:before {
   color: #1de9b6; }
+  .slick-list {
+    position: relative;
+    display: block;
+    overflow: hidden;
+    margin-right: 28px;
+    padding: 0;
+}
+
+
 
 /*footer*/
 footer ul > li {
@@ -7860,4 +7876,26 @@ footer h5 {
 
 @media screen and (max-width: 768px) {
   .switcher-wrap {
-    display: none; } }
+    display: none; }
+    .row.mt-6{
+
+    }
+    .row {
+      display: -ms-flexbox;
+      display: flex;
+      -ms-flex-wrap: wrap;
+      flex-wrap: wrap-reverse;
+      margin-right: -16px;
+      margin-left: -10px;
+  }
+  .slick-dots {
+    top: 11em;
+}
+.slick-list {
+  position: relative;
+  display: block;
+  overflow: hidden;
+  margin-right: 0px;
+  padding: 0;
+}
+  }
