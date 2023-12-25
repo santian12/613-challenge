@@ -7912,7 +7912,7 @@ footer h5 {
       display: -ms-flexbox;
       display: flex;
       -ms-flex-wrap: wrap;
-      flex-wrap: wrap-reverse;
+      flex-wrap: wrap;
       margin-right: -16px;
       margin-left: -10px;
   }
@@ -7924,6 +7924,7 @@ footer h5 {
     margin-right: -16px;
     margin-left: -10px;
 }
+
   .slick-dots {
     top: 11em;
 }
